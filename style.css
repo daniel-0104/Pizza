@@ -1,0 +1,185 @@
+body
+{
+    background-color: #173F5F;
+}
+#navbg
+{
+    background-color: #0c2840;
+}
+#logo
+{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+#home
+{
+    border: 1px solid white;
+    border-radius: 20px;
+    align-items: center;
+}
+#home > li > a
+{
+    color: white;
+    padding: 0 10px;
+    margin: 8px;
+    font-family: calibri;
+}
+#home > li > a:hover
+{
+    color: #007bff;
+}
+#bag > i:hover
+{
+    color: #007bff;
+}
+
+
+
+#header
+{
+    color: white;
+    margin-bottom: 100px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#headerpizza > h1 > span
+{
+    font-size: 40pt;
+    color: #3EB650;
+}
+
+
+#service
+{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25pt;
+    color: #3EB650;
+}
+#deli
+{
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+
+#menu
+{
+    margin-top: 50px;
+    font-size: 25pt;
+    color: #3EB650;
+}
+#pizza
+{
+    color: white;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    background-color: #3EB650;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+#orderPizza
+{
+    width: fit-content;
+    margin-bottom: 20px;
+}
+#desserts
+{
+    color: white;
+    /* margin: auto; */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background-color: #3EB650;
+    display: block;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+#dollar
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+#location
+{
+    font-size: 25pt;
+    color: #3EB650;
+}
+
+
+#contact_us
+{
+    margin-top: 80px;
+}
+#form-control
+{
+    border-width: 0 0 1px;
+    outline: 0;
+    background-color: transparent;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 15pt;
+    border-radius: 0;
+}
+#form-control::placeholder
+{
+    color: white;
+    background-color: transparent;
+}
+#form-control:focus
+{
+    box-shadow: none;
+    border-color: #0275d8;
+    background-color: transparent;
+}
+
+
+#fact
+{
+    font-family: calibri;
+    font-size: 15pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#social
+{
+    font-size: 20pt;
+}
+#menu_link > a
+{
+    text-decoration: none;
+    font-family: calibri;
+    font-size: 15pt;
+}
+#service_link > a
+{
+    text-decoration: none;
+    font-family: calibri;
+    font-size: 15pt;
+    display: block;
+}
+#qu_link
+{
+    font-size: 14pt;
+}
+#data
+{
+    font-family: calibri;
+    font-size: 15pt;
+}
+
+
+
