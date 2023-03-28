@@ -1,6 +1,6 @@
 # Pizza Website
 
-Hello, this is a responsive pizza order website for users. 
+Hello, this is a static pizza order website for users. 
 
 ![pizza1](https://user-images.githubusercontent.com/122777459/227766984-13aacd53-7259-4794-98cb-c88bf3135b1e.JPG)
 
