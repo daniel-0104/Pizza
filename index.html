@@ -415,16 +415,16 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control text-white" placeholder="Your Name" id="form-control">
+                                    <input type="text" class="form-control text-white" placeholder="Your Name" id="form-control" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control text-white" placeholder="Your Email" id="form-control">
+                                    <input type="email" class="form-control text-white" placeholder="Your Email" id="form-control" required>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <textarea cols="10" rows="7" class="form-control text-white" placeholder="Message" id="form-control"></textarea>
+                                <textarea cols="10" rows="7" class="form-control text-white" placeholder="Message" id="form-control" required></textarea>
                             </div>
                             <div class="form-group">
                                 <button class="btn btn-primary mt-2 px-4" onclick="send();">Send Message</button>
@@ -436,12 +436,20 @@
         </div>
     </section>
 
-    <!-- <script>
+    <script>
         function send()
         {
-            alert("Your message sent successfully!");
+            const answer = document.getElementById("form-control").value;
+            if (answer === "") 
+            {
+                alert("Please fill all the fields");
+            } 
+            else 
+            {
+                alert("Your Message send successfully");
+            }
         }
-    </script> -->
+    </script>
 
     <!-- footer  -->
     <section class="container-fluid bg-dark mt-5">
