@@ -40,16 +40,19 @@ body
 #header
 {
     color: white;
-    margin-bottom: 100px;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-bottom: 90px;
+    background-color: #535a60;
+    padding: 60px;
 }
 #headerpizza > h1 > span
 {
     font-size: 40pt;
     color: #3EB650;
+}
+#orderget
+{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
