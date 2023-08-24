@@ -206,6 +206,11 @@ body
 {
     font-size: 20pt;
 }
+#social > i:hover
+{
+    color: #007bff;
+    cursor: pointer;
+}
 #menu_link > a
 {
     text-decoration: none;
